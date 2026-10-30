@@ -1,0 +1,55 @@
+{
+  "name": "signalk-navionics",
+  "version": "0.2.0",
+  "description": "Signal K plugin for Navionics Plotter Sync: fake Raymarine discovery, a card-backed SFTP bridge, and read-only card resources.",
+  "main": "index.js",
+  "private": false,
+  "type": "commonjs",
+  "keywords": [
+    "signalk-node-server-plugin",
+    "navionics",
+    "raymarine",
+    "plotter-sync",
+    "sftp",
+    "signalk-category-chart-plotters"
+  ],
+  "signalk-plugin-enabled-by-default": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "support",
+    "keys/authorized_keys",
+    "README.md",
+    "docs",
+    "icon.svg",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "check": "node --check index.js && node --check src/server.js && node --check src/worker.js && node --check src/sftp-server.js && node --check src/discovery.js && node --check src/card-resources.js && node --check src/trace.js && node --check src/gpx.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "ssh2": "^1.17.0"
+  },
+  "author": "night199uk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/night199uk/signalk-navionics.git"
+  },
+  "signalk": {
+    "displayName": "Navionics Plotter Sync",
+    "appIcon": "icon.svg",
+    "appstore": {
+      "displayName": "Navionics Plotter Sync",
+      "categories": [
+        "chart-plotters"
+      ],
+      "author": "night199uk",
+      "description": "Read Navionics routes and markers from a real SD card as read-only Signal K resources."
+    }
+  }
+}

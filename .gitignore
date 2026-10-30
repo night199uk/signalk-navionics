@@ -1,0 +1,6 @@
+node_modules/
+traces/
+*.log
+*.swp
+*.swo
+.DS_Store

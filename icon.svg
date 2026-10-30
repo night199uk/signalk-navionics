@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="Navionics Plotter Sync">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="16" x2="172" y2="178" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b2d4f"/>
+      <stop offset="1" stop-color="#0f7a8a"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="176" height="176" rx="38" fill="url(#bg)"/>
+  <path d="M38 138c15-30 31-50 51-59 20-9 38-7 62-29" fill="none" stroke="#8be8ff" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="38" cy="138" r="10" fill="#f7fbff"/>
+  <circle cx="89" cy="79" r="10" fill="#f7fbff"/>
+  <circle cx="151" cy="50" r="10" fill="#f7fbff"/>
+  <g transform="translate(139 139)">
+    <circle r="31" fill="#08233d"/>
+    <path d="M-16-5H13" fill="none" stroke="#ffd166" stroke-width="7" stroke-linecap="round"/>
+    <path d="m5-12 10 7-10 7" fill="none" stroke="#ffd166" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M16 5H-13" fill="none" stroke="#ffd166" stroke-width="7" stroke-linecap="round"/>
+    <path d="m-5 12-10-7 10-7" fill="none" stroke="#ffd166" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
